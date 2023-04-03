@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 0.4s ease;
+}
+
+#image{
+    transition: 0.5s ease;
+}
+
+.buttonsDiv{
+    margin-top: 10px;
+}
+
+button{
+    background-color: #CB9ED4;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    border: none;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #9f75a8, #7e658c, #60546e, #474350, #323232);
+    cursor: pointer;
+}
